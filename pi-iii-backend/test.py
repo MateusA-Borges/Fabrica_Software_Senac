@@ -2,8 +2,8 @@
 import cv2
 import time
 
-RTSP_URL = "http://admin:Senac@2026@172.17.50.190/cgi-bin/mjpg/video.cgi?channel=1&subtype=1" 
-
+#RTSP_URL = "http://admin:Senac@2026@172.17.50.190/cgi-bin/mjpg/video.cgi?channel=1&subtype=1" 
+RTSP_URL = "video0"
 
 # Initialize the camera capture
 cap = cv2.VideoCapture(RTSP_URL)
